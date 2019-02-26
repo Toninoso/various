@@ -1,0 +1,263 @@
+2019-02-26T10:06:05Z 
+
+
+
+
+2019-02-26T10:06:05Z Bitcoin Core version v0.17.1 (release build)
+2019-02-26T10:06:05Z InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2019-02-26T10:06:05Z GUI: QObject::connect: No such slot BitcoinGUI::gotoOverviewPage() in qt/bitcoingui.cpp:269
+2019-02-26T10:06:05Z GUI: QObject::connect: No such slot BitcoinGUI::gotoSendCoinsPage() in qt/bitcoingui.cpp:271
+2019-02-26T10:06:05Z GUI: QObject::connect: No such slot BitcoinGUI::gotoSendCoinsPage() in qt/bitcoingui.cpp:273
+2019-02-26T10:06:05Z GUI: QObject::connect: No such slot BitcoinGUI::gotoReceiveCoinsPage() in qt/bitcoingui.cpp:275
+2019-02-26T10:06:05Z GUI: QObject::connect: No such slot BitcoinGUI::gotoReceiveCoinsPage() in qt/bitcoingui.cpp:277
+2019-02-26T10:06:05Z GUI: QObject::connect: No such slot BitcoinGUI::gotoHistoryPage() in qt/bitcoingui.cpp:279
+2019-02-26T10:06:05Z GUI: QObject::connect: No such slot BitcoinGUI::gotoSignMessageTab() in qt/bitcoingui.cpp:345
+2019-02-26T10:06:05Z GUI: QObject::connect: No such slot BitcoinGUI::gotoVerifyMessageTab() in qt/bitcoingui.cpp:346
+2019-02-26T10:06:05Z GUI: QObject::connect: No such slot BitcoinGUI::openClicked() in qt/bitcoingui.cpp:349
+2019-02-26T10:06:05Z GUI: QObject::connect: No such slot BitcoinGUI::setCurrentWalletBySelectorIndex(int) in qt/bitcoingui.cpp:423
+2019-02-26T10:06:05Z Assuming ancestors of block 0000000000000037a8cd3e06cd5edbfe9dd1dbcc5dacab279376ef7cfc2b4c75 have valid signatures.
+2019-02-26T10:06:05Z Setting nMinimumChainWork=00000000000000000000000000000000000000000000007dbe94253893cbd463
+2019-02-26T10:06:05Z Using the 'sse4(1way),sse41(4way),avx2(8way)' SHA256 implementation
+2019-02-26T10:06:05Z Using RdRand as an additional entropy source
+2019-02-26T10:06:05Z GUI: requestInitialize : Requesting initialize
+2019-02-26T10:06:05Z GUI: initialize : Running initialization in thread
+2019-02-26T10:06:05Z Default data directory /home/tony/.bitcoin
+2019-02-26T10:06:05Z Using data directory /home/tony/.bitcoin/testnet3
+2019-02-26T10:06:05Z Using config file /home/tony/.bitcoin/bitcoin.conf
+2019-02-26T10:06:05Z Using at most 125 automatic connections (1024 file descriptors available)
+2019-02-26T10:06:05Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2019-02-26T10:06:05Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2019-02-26T10:06:05Z Using 4 threads for script verification
+2019-02-26T10:06:05Z scheduler thread start
+2019-02-26T10:06:05Z Using wallet directory /home/tony/.bitcoin/testnet3/wallets
+2019-02-26T10:06:05Z init message: Verifying wallet(s)...
+2019-02-26T10:06:05Z Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2019-02-26T10:06:05Z Using wallet wallet.dat
+2019-02-26T10:06:05Z BerkeleyEnvironment::Open: LogDir=/home/tony/.bitcoin/testnet3/wallets/database ErrorFile=/home/tony/.bitcoin/testnet3/wallets/db.log
+2019-02-26T10:06:05Z net: setting try another outbound peer=false
+2019-02-26T10:06:05Z Cache configuration:
+2019-02-26T10:06:05Z * Using 2.0MiB for block index database
+2019-02-26T10:06:05Z * Using 56.0MiB for transaction index database
+2019-02-26T10:06:05Z * Using 8.0MiB for chain state database
+2019-02-26T10:06:05Z * Using 384.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2019-02-26T10:06:05Z init message: Loading block index...
+2019-02-26T10:06:05Z LevelDB using max_open_files=1000 (default=1000)
+2019-02-26T10:06:05Z Opening LevelDB in /home/tony/.bitcoin/testnet3/blocks/index
+2019-02-26T10:06:05Z leveldb: Recovering log #451
+2019-02-26T10:06:05Z leveldb: Level-0 table #467: started
+2019-02-26T10:06:05Z leveldb: Level-0 table #467: 3253 bytes OK
+2019-02-26T10:06:05Z leveldb: Delete type=0 #451
+2019-02-26T10:06:05Z leveldb: Delete type=3 #449
+2019-02-26T10:06:05Z Opened LevelDB successfully
+2019-02-26T10:06:05Z Using obfuscation key for /home/tony/.bitcoin/testnet3/blocks/index: 0000000000000000
+2019-02-26T10:06:07Z leveldb: Compacting 1@0 + 4@1 files
+2019-02-26T10:06:07Z leveldb: Generated table #469@0: 197 keys, 28539 bytes
+2019-02-26T10:06:07Z leveldb: Generated table #470@0: 68 keys, 9944 bytes
+2019-02-26T10:06:07Z leveldb: Generated table #471@0: 69 keys, 10066 bytes
+2019-02-26T10:06:07Z leveldb: Generated table #472@0: 78 keys, 11382 bytes
+2019-02-26T10:06:07Z leveldb: Generated table #473@0: 2 keys, 313 bytes
+2019-02-26T10:06:07Z leveldb: Compacted 1@0 + 4@1 files => 60244 bytes
+2019-02-26T10:06:07Z leveldb: compacted to: files[ 0 5 49 98 0 0 0 ]
+2019-02-26T10:06:12Z LoadBlockIndexDB: last block file = 157
+2019-02-26T10:06:12Z leveldb: Compacting 1@1 + 7@2 files
+2019-02-26T10:06:12Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=2232, size=20575680, heights=1479521...1481795, time=2019-02-20...2019-02-26)
+2019-02-26T10:06:12Z Checking all blk files are present...
+2019-02-26T10:06:12Z leveldb: Generated table #474@1: 15060 keys, 2135975 bytes
+2019-02-26T10:06:12Z leveldb: Generated table #475@1: 15060 keys, 2136397 bytes
+2019-02-26T10:06:12Z leveldb: Generated table #476@1: 15060 keys, 2136131 bytes
+2019-02-26T10:06:12Z leveldb: Generated table #477@1: 15060 keys, 2136248 bytes
+2019-02-26T10:06:12Z leveldb: Generated table #478@1: 15060 keys, 2136522 bytes
+2019-02-26T10:06:12Z leveldb: Generated table #479@1: 15060 keys, 2136207 bytes
+2019-02-26T10:06:12Z leveldb: Generated table #480@1: 1898 keys, 254980 bytes
+2019-02-26T10:06:12Z leveldb: Compacted 1@1 + 7@2 files => 13072460 bytes
+2019-02-26T10:06:12Z leveldb: compacted to: files[ 0 4 49 98 0 0 0 ]
+2019-02-26T10:06:12Z leveldb: Delete type=2 #461
+2019-02-26T10:06:12Z leveldb: Delete type=2 #454
+2019-02-26T10:06:12Z leveldb: Delete type=2 #452
+2019-02-26T10:06:12Z leveldb: Delete type=2 #460
+2019-02-26T10:06:12Z leveldb: Delete type=2 #462
+2019-02-26T10:06:12Z leveldb: Delete type=2 #463
+2019-02-26T10:06:12Z leveldb: Delete type=2 #459
+2019-02-26T10:06:12Z leveldb: Delete type=2 #467
+2019-02-26T10:06:12Z leveldb: Delete type=2 #473
+2019-02-26T10:06:12Z leveldb: Delete type=2 #453
+2019-02-26T10:06:12Z leveldb: Delete type=2 #464
+2019-02-26T10:06:12Z leveldb: Delete type=2 #465
+2019-02-26T10:06:12Z leveldb: Delete type=2 #455
+2019-02-26T10:06:12Z LevelDB using max_open_files=1000 (default=1000)
+2019-02-26T10:06:12Z Opening LevelDB in /home/tony/.bitcoin/testnet3/chainstate
+2019-02-26T10:06:12Z leveldb: Recovering log #6032
+2019-02-26T10:06:12Z leveldb: Level-0 table #6058: started
+2019-02-26T10:06:12Z leveldb: Level-0 table #6058: 597 bytes OK
+2019-02-26T10:06:12Z leveldb: Delete type=3 #6030
+2019-02-26T10:06:12Z leveldb: Delete type=0 #6032
+2019-02-26T10:06:12Z Opened LevelDB successfully
+2019-02-26T10:06:12Z Using obfuscation key for /home/tony/.bitcoin/testnet3/chainstate: 6a214742cee14018
+2019-02-26T10:06:13Z Loaded best chain: hashBestChain=0000000000000056c7d3cef182e14ea823267822dd5fbfddc6bb37715c48de12 height=1481795 date=2019-02-26T09:50:04Z progress=0.999988
+2019-02-26T10:06:13Z init message: Rewinding blocks...
+2019-02-26T10:06:19Z WriteBatch memory usage: db=index, before=0.0MiB, after=0.0MiB
+2019-02-26T10:06:19Z Writing final batch of 0.00 MiB
+2019-02-26T10:06:19Z WriteBatch memory usage: db=chainstate, before=0.0MiB, after=0.0MiB
+2019-02-26T10:06:19Z Committed 0 changed transaction outputs (out of 0) to coin database...
+2019-02-26T10:06:19Z init message: Verifying blocks...
+2019-02-26T10:06:19Z Verifying last 6 blocks at level 3
+2019-02-26T10:06:19Z [0%]...[16%]...leveldb: Compacting 1@0 + 7@1 files
+2019-02-26T10:06:19Z leveldb: Generated table #6060@0: 1191 keys, 65104 bytes
+2019-02-26T10:06:19Z [33%]...leveldb: Generated table #6061@0: 2009 keys, 105462 bytes
+2019-02-26T10:06:19Z leveldb: Generated table #6062@0: 663 keys, 36072 bytes
+2019-02-26T10:06:19Z leveldb: Generated table #6063@0: 612 keys, 34714 bytes
+2019-02-26T10:06:19Z [50%]...[66%]...[83%]...[99%]...[DONE].
+2019-02-26T10:06:19Z No coin database inconsistencies in last 6 blocks (1014 transactions)
+2019-02-26T10:06:19Z  block index           13774ms
+2019-02-26T10:06:19Z Reading estimates: 190 buckets counting confirms up to 48 blocks
+2019-02-26T10:06:19Z Reading estimates: 190 buckets counting confirms up to 12 blocks
+2019-02-26T10:06:19Z Reading estimates: 190 buckets counting confirms up to 1008 blocks
+2019-02-26T10:06:19Z LevelDB using max_open_files=1000 (default=1000)
+2019-02-26T10:06:19Z Opening LevelDB in /home/tony/.bitcoin/testnet3/indexes/txindex
+2019-02-26T10:06:19Z leveldb: Recovering log #20691
+2019-02-26T10:06:19Z leveldb: Level-0 table #20724: started
+2019-02-26T10:06:19Z leveldb: Generated table #6064@0: 37414 keys, 2168400 bytes
+2019-02-26T10:06:19Z leveldb: Level-0 table #20724: 175616 bytes OK
+2019-02-26T10:06:19Z leveldb: Delete type=3 #20689
+2019-02-26T10:06:19Z leveldb: Delete type=0 #20691
+2019-02-26T10:06:19Z Opened LevelDB successfully
+2019-02-26T10:06:19Z Using obfuscation key for /home/tony/.bitcoin/testnet3/indexes/txindex: 0000000000000000
+2019-02-26T10:06:19Z init message: Loading wallet...
+2019-02-26T10:06:19Z txindex thread start
+2019-02-26T10:06:19Z txindex is enabled at height 1481795
+2019-02-26T10:06:19Z txindex thread exit
+2019-02-26T10:06:19Z leveldb: Generated table #6065@0: 37773 keys, 2168691 bytes
+2019-02-26T10:06:19Z [default wallet] nFileVersion = 170100
+2019-02-26T10:06:19Z [default wallet] Keys: 0 plaintext, 4002 encrypted, 4002 w/ metadata, 4002 total. Unknown wallet records: 1
+2019-02-26T10:06:19Z [default wallet] Wallet completed loading in              44ms
+2019-02-26T10:06:19Z [default wallet] setKeyPool.size() = 1999
+2019-02-26T10:06:19Z [default wallet] mapWallet.size() = 1
+2019-02-26T10:06:19Z [default wallet] mapAddressBook.size() = 1
+2019-02-26T10:06:19Z mapBlockIndex.size() = 1481820
+2019-02-26T10:06:19Z nBestHeight = 1481795
+2019-02-26T10:06:19Z torcontrol thread start
+2019-02-26T10:06:19Z AddLocal([2601:582:4a80:2fa5::affc]:18333,1)
+2019-02-26T10:06:19Z Discover: IPv6 wlp2s0: 2601:582:4a80:2fa5::affc
+2019-02-26T10:06:19Z AddLocal([2601:582:4a80:2fa5:4daf:d8fc:56ee:349e]:18333,1)
+2019-02-26T10:06:19Z Discover: IPv6 wlp2s0: 2601:582:4a80:2fa5:4daf:d8fc:56ee:349e
+2019-02-26T10:06:19Z AddLocal([2601:582:4a80:2fa5:f378:9ee6:715a:508b]:18333,1)
+2019-02-26T10:06:19Z tor: Error connecting to Tor control socket
+2019-02-26T10:06:19Z Discover: IPv6 wlp2s0: 2601:582:4a80:2fa5:f378:9ee6:715a:508b
+2019-02-26T10:06:19Z tor: Not connected to Tor control port 127.0.0.1:9051, trying to reconnect
+2019-02-26T10:06:19Z Bound to [::]:18333
+2019-02-26T10:06:19Z Bound to 0.0.0.0:18333
+2019-02-26T10:06:19Z init message: Loading P2P addresses...
+2019-02-26T10:06:19Z Leaving InitialBlockDownload (latching to false)
+2019-02-26T10:06:19Z Imported mempool transactions from disk: 14 succeeded, 0 failed, 0 expired, 0 already there
+2019-02-26T10:06:19Z leveldb: Generated table #6066@0: 36848 keys, 2166682 bytes
+2019-02-26T10:06:19Z leveldb: Compacted 1@0 + 7@1 files => 6745125 bytes
+2019-02-26T10:06:19Z leveldb: compacted to: files[ 0 7 87 482 0 0 0 ]
+2019-02-26T10:06:19Z leveldb: Delete type=2 #6033
+2019-02-26T10:06:19Z leveldb: Delete type=2 #6038
+2019-02-26T10:06:19Z leveldb: Delete type=2 #6036
+2019-02-26T10:06:19Z leveldb: Delete type=2 #6037
+2019-02-26T10:06:19Z leveldb: Delete type=2 #6035
+2019-02-26T10:06:19Z leveldb: Delete type=2 #6034
+2019-02-26T10:06:19Z leveldb: Delete type=2 #6039
+2019-02-26T10:06:19Z leveldb: Delete type=2 #6058
+2019-02-26T10:06:19Z Loaded 14439 addresses from peers.dat  32ms
+2019-02-26T10:06:19Z init message: Loading banlist...
+2019-02-26T10:06:19Z Loaded 0 banned node ips/subnets from banlist.dat  0ms
+2019-02-26T10:06:19Z init message: Starting network threads...
+2019-02-26T10:06:19Z net thread start
+2019-02-26T10:06:19Z dnsseed thread start
+2019-02-26T10:06:19Z addcon thread start
+2019-02-26T10:06:19Z opencon thread start
+2019-02-26T10:06:19Z init message: Done loading
+2019-02-26T10:06:19Z msghand thread start
+2019-02-26T10:06:19Z GUI: initializeResult : Initialization result:  true
+2019-02-26T10:06:19Z GUI: Platform customization: "other"
+2019-02-26T10:06:19Z GUI: PaymentServer::LoadRootCAs: Loaded  267  root certificates
+2019-02-26T10:06:19Z GUI: TransactionTablePriv::refreshWallet
+2019-02-26T10:06:19Z GUI: QObject::connect: No such slot BitcoinGUI::gotoHistoryPage() in qt/walletview.cpp:96
+2019-02-26T10:06:19Z GUI: QObject::connect:  (sender name:   'OverviewPage')
+2019-02-26T10:06:19Z GUI: QObject::connect: No such slot BitcoinGUI::gotoHistoryPage() in qt/walletview.cpp:99
+2019-02-26T10:06:19Z GUI: QObject::connect:  (sender name:   'SendCoinsDialog')
+2019-02-26T10:06:19Z GUI: QObject::connect: No such slot BitcoinGUI::updateWalletStatus() in qt/walletview.cpp:105
+2019-02-26T10:06:19Z GUI: QObject::connect: No such slot BitcoinGUI::incomingTransaction(QString,int,CAmount,QString,QString,QString,QString) in qt/walletview.cpp:108
+2019-02-26T10:06:19Z GUI: QObject::connect: No such slot BitcoinGUI::updateWalletStatus() in qt/walletview.cpp:111
+2019-02-26T10:06:19Z FeeEst: 1 >60% decay 0.96200: feerate: -1 from (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (0 - 1e+99) 85.28% 8.0/(9.3 0 mem 0.1 out)
+2019-02-26T10:06:19Z FeeEst: 2 >85% decay 0.96200: feerate: -1 from (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (0 - 1e+99) 99.88% 9.3/(9.3 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 4 >95% decay 0.96200: feerate: -1 from (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (0 - 1e+99) 100.00% 9.3/(9.3 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 4 >95% decay 0.99520: feerate: 1000 from (0 - 1000) 100.00% 37.8/(37.8 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 4 >95% decay 0.99931: feerate: 1014.5 from (1000 - 1050) 100.00% 447.5/(447.5 0 mem 0.0 out) Fail: (0 - 1000) 100.00% 86.1/(86.1 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 1 >60% decay 0.96200: feerate: -1 from (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (0 - 1e+99) 85.28% 8.0/(9.3 0 mem 0.1 out)
+2019-02-26T10:06:19Z FeeEst: 2 >85% decay 0.96200: feerate: -1 from (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (0 - 1e+99) 99.88% 9.3/(9.3 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 4 >95% decay 0.96200: feerate: -1 from (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (0 - 1e+99) 100.00% 9.3/(9.3 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 4 >95% decay 0.99520: feerate: 1000 from (0 - 1000) 100.00% 37.8/(37.8 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 4 >95% decay 0.99931: feerate: 1014.5 from (1000 - 1050) 100.00% 447.5/(447.5 0 mem 0.0 out) Fail: (0 - 1000) 100.00% 86.1/(86.1 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 1 >60% decay 0.96200: feerate: -1 from (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (0 - 1e+99) 85.28% 8.0/(9.3 0 mem 0.1 out)
+2019-02-26T10:06:19Z FeeEst: 2 >85% decay 0.96200: feerate: -1 from (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (0 - 1e+99) 99.88% 9.3/(9.3 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 4 >95% decay 0.96200: feerate: -1 from (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (0 - 1e+99) 100.00% 9.3/(9.3 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 4 >95% decay 0.99520: feerate: 1000 from (0 - 1000) 100.00% 37.8/(37.8 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 4 >95% decay 0.99931: feerate: 1014.5 from (1000 - 1050) 100.00% 447.5/(447.5 0 mem 0.0 out) Fail: (0 - 1000) 100.00% 86.1/(86.1 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 3 >60% decay 0.96200: feerate: -1 from (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (0 - 1e+99) 100.00% 9.3/(9.3 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 6 >85% decay 0.96200: feerate: -1 from (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (0 - 1e+99) 100.00% 9.3/(9.3 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 12 >95% decay 0.96200: feerate: -1 from (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out) Fail: (0 - 1e+99) 100.00% 9.3/(9.3 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 12 >95% decay 0.99520: feerate: 1000 from (0 - 1000) 100.00% 37.8/(37.8 0 mem 0.0 out) Fail: (-1 - -1) -nan% 0.0/(0.0 0 mem 0.0 out)
+2019-02-26T10:06:19Z FeeEst: 12 >95% decay 0.99931: feerate: 1014.5 from (1000 - 1050) 100.00% 447.5/(447.5 0 mem 0.0 out) Fail: (0 - 1000) 100.00% 86.1/(86.1 0 mem 0.0 out)
+2019-02-26T10:06:19Z GUI: QObject::connect: No such slot BitcoinGUI::handlePaymentRequest(SendCoinsRecipient) in qt/bitcoin.cpp:507
+2019-02-26T10:06:19Z GUI: PaymentServer::initNetManager: No active proxy server found.
+2019-02-26T10:06:19Z trying connection 5.78.147.227:18333 lastseen=171.1hrs
+2019-02-26T10:06:20Z tor: Error connecting to Tor control socket
+2019-02-26T10:06:20Z tor: Not connected to Tor control port 127.0.0.1:9051, trying to reconnect
+2019-02-26T10:06:21Z tor: Error connecting to Tor control socket
+2019-02-26T10:06:21Z tor: Not connected to Tor control port 127.0.0.1:9051, trying to reconnect
+2019-02-26T10:06:24Z tor: Error connecting to Tor control socket
+2019-02-26T10:06:24Z tor: Not connected to Tor control port 127.0.0.1:9051, trying to reconnect
+2019-02-26T10:06:24Z connection to 5.78.147.227:18333 timeout
+2019-02-26T10:06:25Z trying connection 194.230.158.44:18333 lastseen=47.3hrs
+2019-02-26T10:06:27Z tor: Error connecting to Tor control socket
+2019-02-26T10:06:27Z tor: Not connected to Tor control port 127.0.0.1:9051, trying to reconnect
+2019-02-26T10:06:29Z GUI: requestShutdown : Requesting shutdown
+2019-02-26T10:06:29Z GUI: shutdown : Running Shutdown in thread
+2019-02-26T10:06:29Z Interrupting HTTP server
+2019-02-26T10:06:29Z Interrupting HTTP RPC server
+2019-02-26T10:06:29Z Interrupting RPC
+2019-02-26T10:06:29Z tor: Thread interrupt
+2019-02-26T10:06:29Z Shutdown: In progress...
+2019-02-26T10:06:29Z Stopping HTTP RPC server
+2019-02-26T10:06:29Z Stopping RPC
+2019-02-26T10:06:29Z dnsseed thread exit
+2019-02-26T10:06:29Z torcontrol thread exit
+2019-02-26T10:06:29Z addcon thread exit
+2019-02-26T10:06:29Z Stopping HTTP server
+2019-02-26T10:06:29Z Stopped HTTP server
+2019-02-26T10:06:29Z BerkeleyEnvironment::Flush: Flush(false)
+2019-02-26T10:06:29Z BerkeleyEnvironment::Flush: Flushing wallet.dat (refcount = 0)...
+2019-02-26T10:06:29Z BerkeleyEnvironment::Flush: wallet.dat checkpoint
+2019-02-26T10:06:29Z BerkeleyEnvironment::Flush: wallet.dat detach
+2019-02-26T10:06:29Z BerkeleyEnvironment::Flush: wallet.dat closed
+2019-02-26T10:06:29Z BerkeleyEnvironment::Flush: Flush(false) took               8ms
+2019-02-26T10:06:29Z msghand thread exit
+2019-02-26T10:06:29Z net thread exit
+2019-02-26T10:06:30Z connection to 194.230.158.44:18333 timeout
+2019-02-26T10:06:30Z opencon thread exit
+2019-02-26T10:06:30Z Flushed 14439 addresses to peers.dat  31ms
+2019-02-26T10:06:30Z scheduler thread interrupt
+2019-02-26T10:06:30Z Dumped mempool: 6e-06s to copy, 0.002198s to dump
+2019-02-26T10:06:30Z Recorded 13 unconfirmed txs from mempool in 6e-06s
+2019-02-26T10:06:30Z WriteBatch memory usage: db=index, before=0.0MiB, after=0.0MiB
+2019-02-26T10:06:30Z Writing final batch of 0.00 MiB
+2019-02-26T10:06:30Z WriteBatch memory usage: db=chainstate, before=0.0MiB, after=0.0MiB
+2019-02-26T10:06:30Z Committed 0 changed transaction outputs (out of 17) to coin database...
+2019-02-26T10:06:30Z WriteBatch memory usage: db=index, before=0.0MiB, after=0.0MiB
+2019-02-26T10:06:30Z Writing final batch of 0.00 MiB
+2019-02-26T10:06:30Z WriteBatch memory usage: db=chainstate, before=0.0MiB, after=0.0MiB
+2019-02-26T10:06:30Z Committed 0 changed transaction outputs (out of 0) to coin database...
+2019-02-26T10:06:30Z BerkeleyEnvironment::Flush: Flush(true)
+2019-02-26T10:06:30Z BerkeleyEnvironment::Flush: Flushing wallet.dat (refcount = 0)...
+2019-02-26T10:06:30Z BerkeleyEnvironment::Flush: wallet.dat checkpoint
+2019-02-26T10:06:30Z BerkeleyEnvironment::Flush: wallet.dat detach
+2019-02-26T10:06:30Z BerkeleyEnvironment::Flush: wallet.dat closed
+2019-02-26T10:06:30Z BerkeleyEnvironment::Flush: Flush(true) took               5ms
+2019-02-26T10:06:30Z [default wallet] Releasing wallet
+2019-02-26T10:06:30Z Shutdown: done
+2019-02-26T10:06:30Z GUI: shutdown : Shutdown finished
+2019-02-26T10:06:30Z GUI: ~BitcoinApplication : Stopping thread
+2019-02-26T10:06:30Z GUI: ~BitcoinApplication : Stopped thread
